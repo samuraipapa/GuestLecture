@@ -59,8 +59,8 @@ class GameScene: SKScene {
         sprite.position = location
         
         //Spin the Sticks
-       // let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:2.2)
-      //  sprite.runAction(SKAction.repeatActionForever(action))
+       let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:10.2)
+        sprite.runAction(SKAction.repeatActionForever(action))
         
         
         // Add physicsBody
